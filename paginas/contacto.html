@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\stylepaginas.css">
+    <title>Document</title>
+</head>
+<body class="bodyy">
+    <form id="form">
+        <div class="field">
+          <label for="from_name">from_name</label>
+          <input type="text" name="from_name" id="from_name">
+        </div>
+        <div class="field">
+          <label for="from_email">from_email</label>
+          <input type="text" name="from_email" id="from_email">
+        </div>
+        <div class="field">
+          <label for="from_phone">from_phone</label>
+          <input type="text" name="from_phone" id="from_phone">
+        </div>
+        <div class="field">
+          <label for="message">message</label>
+          <input type="text" name="message" id="message">
+        </div>
+     
+        <input type="submit" id="button" value="Send Email" >
+      </form>
+      
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src=".js/enviarForm.js"></script>
+      
+</body>
+</html>

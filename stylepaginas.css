@@ -1,0 +1,517 @@
+
+
+.bodyy{
+    background-image: url(/img/fondo.jpg);
+    
+    
+    
+}
+
+.nav-item{
+    color: rgb(247, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin:20px;
+    text-decoration-line:none;
+    
+}
+
+.cabecera{
+    background-color: rgb(61, 121, 83);
+    font-family: 'Roboto', sans-serif;
+    color: hsl(180, 35%, 92%);
+    text-align: center;
+    font-size: 100%;
+   
+}
+
+.subtituloo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(183, 193, 201);
+    text-rendering:optimizeLegibility;
+    
+    
+}
+
+.bg-propio{
+    background: rgba(101, 115, 196, 0.829);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration-line:none;
+    display: inline-flex;
+    
+}
+
+
+.navbar-nav{
+    width: 100%;
+    text-align: centEr;
+    color: rgb(245, 245, 245);
+    
+    
+}
+
+
+
+.img{ 
+    width: 650px;
+    height:550px ;
+    float: left;
+    padding-left: 50px;
+    margin-top: 5%;
+
+}
+.sobrekinesiologia{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15%;
+    
+    
+        
+}
+
+ 
+.footerr{
+margin-top: 25%;
+padding-left: 50%;
+color: black;
+
+}
+
+/*musculospagina*/
+
+.body{
+background-color: rgb(106, 160, 160);
+}
+
+.titulo{
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    padding-left: 43%;
+    
+
+}
+.imgmusculos{
+width:  750px;
+height: 800px;
+margin-right:30px;
+margin-left:2%;
+float:right
+
+
+}
+.sobrelosmusculos{
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+width: 35%;
+margin-left: 50px;
+
+
+
+
+
+}
+
+/* aca empieza style de pagina esqueleto*/
+
+.sobreesqueleto{
+margin-top: 110px;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size:25px
+}
+
+.imgesqueleto{
+width:70%;
+height:60% ;
+border-style:double;
+float: right;
+
+}
+
+.infodeesqueleto{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+text-align:justify;
+width: 28%;
+
+}
+/* aca empieza style de pagina vasos y arterias */
+
+.sobrecorazon{
+    font-size: 27px;
+    margin-top: 110px;
+    text-align:justify ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:50px;
+    margin-right: 50px;
+}
+.imgcorazon{
+    width:30%;
+    border-style:double;
+    margin-left: 100px;
+
+
+}
+.derecha{
+    font-size: 27px;
+    text-align:justify ;
+    font-family: Arial, Helvetica, sans-serif; 
+    width:50%;
+    margin-left: 45px;
+    float: left;
+    
+   
+}
+
+
+
+
+/* aca empieza style de pagina organos*/
+
+
+    
+.p{
+    width: 110%;
+
+}
+.header{
+
+background-color: aquamarine;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 40%;
+border-style: double;
+font-size: 20px;
+
+
+}
+
+.main{
+background-color: rgb(89, 161, 137);
+font-size: 20px;
+text-align:justify ;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 1%;
+padding-right: 1%;
+
+
+}
+
+
+
+.card{
+margin-left: 50px;
+text-align: center;
+color: rgb(54, 138, 211);
+
+}
+/* aca empieza la pagina de neurologia*/
+.body3{
+    display: grid;
+    grid-template-areas:"header",
+                         "main";                        
+    grid-template-columns: 100%  ;
+    grid-template-rows: 90px 1400px;
+    background-color: rgba(9, 80, 185, 0.548);
+    margin:auto;
+    
+} 
+.header3{
+
+
+    background-color: rgba(1, 29, 71, 0.548);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-left: 45%;
+    border-style: double;
+    min-width:250px ;
+   
+    
+    }
+    
+    .main3{
+    background-color: rgba(9, 80, 185, 0.548);
+    font-size: 20px;
+    text-align:justify ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    }
+    
+    
+    
+.imgcard5{
+    margin-right:10%;
+    
+}
+    
+    .card{
+    margin-left: 10%;
+    text-align:center; 
+    
+
+    }
+    
+   
+    
+        /* aca empieza style de microbiologia*/
+        .bodymicro{
+            display: grid;
+            grid-template-areas:"main1",
+                                 "main2";                        
+            grid-template-columns: 100%  ;
+            grid-template-rows: 100px 620px;
+            background-image:linear-gradient(to left ,rgb(11, 100, 151),rgb(11, 148, 141),rgb(12, 100, 151) );
+            margin:auto;
+        }
+        
+     
+
+        .gradiente{
+            width:100%;
+            height:400px ;
+            background-image:linear-gradient(to left ,rgb(14, 102, 153),rgb(11, 148, 141),rgb(9, 97, 148) );
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+           
+        }
+       
+        .infomicro{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+            
+             
+        .imgmicro{
+            margin-left: 29%;
+            width: 40%;
+            height: 90%;
+        }
+
+
+.divpadre{
+    border:2px solid black;
+}
+
+       .div{
+        width:100%;
+        height:300px ;
+        animation-name: example;
+        animation-duration: 3s;
+        background-color: rgb(8, 111, 180);
+        animation-iteration-count: infinite;
+       }
+       @keyframes example {
+        20%   {background-color: rgb(10, 143, 136);}
+        25%  {background-color: rgb(51, 177, 194);}
+        
+      }
+    
+      /* contacto */
+
+      .field {
+        margin-bottom: 10px;
+      }
+      
+      .field label {
+        display: block;
+        font-size: 12px;
+        color: #777;
+      }
+      
+      .field input {
+        display: block;
+        min-width: 250px;
+        line-height: 1.5;
+        font-size: 14px;
+      }
+      
+      input[type="submit"] {
+        display: block;
+        padding: 6px 30px;
+        font-size: 14px;
+        background-color: #4460AA;
+        color: #fff;
+        border: none
+      }
+    
+      /* responsiv*/
+
+
+    @media screen and (min-width:200px) and (max-width:768px){
+        .body3{
+            width:200%;
+            background-color: rgb(20, 75, 196);    
+
+    }     
+       
+        
+        .imgcard5{
+            height: 300px;
+            
+
+        }
+             
+        /*responsiv de index*/
+    
+        .bodyy{
+            display: grid;
+            
+            
+            
+            
+        }
+        .cabecera{
+            width: 129%;
+        }
+         .navbar{
+            width: 129%;
+            font-size: x-large;
+            display:inline-block;
+            padding-block-end: 10%;        
+
+         }
+
+         .img{
+          margin-left: 9%;
+          
+
+         }
+        .sobrekinesiologia{
+            margin-top: 60%;
+            margin-left: 24%;
+            text-align: center;
+            
+        }
+        /* responsive de musculos*/
+
+    
+    
+        
+        
+        .imgmusculos{
+        width:  320px;
+        height: 350px;
+        margin-right: 7%
+        
+        
+        
+        }
+        .sobrelosmusculos{
+        width: 80%;
+        text-align:justify;
+        
+        }
+        /*responsive de esqueleto*/
+
+        .infodeesqueleto{
+            width: 100%;
+            
+            
+        }
+        .titulo{
+            padding-left: 30%;
+        }
+        .imgesqueleto{
+        width: 100%;
+
+        }
+            /*responsive de vya*/
+            .derecha{
+             width: 90%;
+             margin: 5%;
+            
+            }
+            .imgcorazon{
+                width: 55%;
+               
+                
+                
+            }
+            .sobrecorazon{
+                width: 90%;
+                margin: 5%;
+            }
+            /*responsiv de organos*/
+            
+                .header{
+                    width: 115%;
+                    margin-left: 12%;
+                    background-color: aquamarine;
+                    padding-left: 50%;
+                }
+            .main{
+                width: 166%;
+                margin-left: 4%;
+                background-color: aquamarine;
+            }
+             
+             .p2{
+                margin: 1%;
+             }
+             .body2{
+                width: 100%;
+                margin-top: 20%;
+                background-color: aquamarine;
+            
+                
+             }
+            .p{
+                width: 500%;
+                background-color: aquamarine;
+            }
+             .imgcard{
+               width: 19%;
+               margin-top: 10%;
+              
+            
+             }
+              .orgimg{
+                width: 520%;
+
+              }
+              .header{
+                width: 100%;
+                margin-left: 7%;
+            }
+              
+             /*respnsive de micro*/
+             .divpadre{
+                width: 178%;
+                margin-top: 130%;
+             }
+             .infomicro{
+                width:170%;
+
+             }
+             .imgmicro{
+                width: 120%;
+             }
+             
+             
+                     
+                
+                
+            }
+
+            
+                
+
+            
+            
+        
+
+
+
+             
+             
+        

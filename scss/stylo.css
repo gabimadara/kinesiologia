@@ -1,0 +1,103 @@
+.bodyy {
+  background-image: url(/img/fondo.jpg);
+}
+
+.nav-item {
+  color: rgb(247, 252, 252);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 20px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.cabecera {
+  background-color: rgb(61, 121, 83);
+  font-family: "Roboto", sans-serif;
+  color: hsl(180deg, 35%, 92%);
+  text-align: center;
+  font-size: 100%;
+}
+
+.subtituloo {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgb(183, 193, 201);
+  text-rendering: optimizeLegibility;
+}
+
+.bg-propio {
+  background: rgba(101, 115, 196, 0.829);
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  display: inline-flex;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: centEr;
+  color: rgb(245, 245, 245);
+}
+
+.img {
+  width: 650px;
+  height: 550px;
+  float: left;
+  padding-left: 50px;
+  margin-top: 5%;
+}
+
+.sobrekinesiologia {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.footerr {
+  margin-top: 25%;
+  padding-left: 50%;
+  color: black;
+}
+
+@media screen and (min-width:200px) and (max-width:768px){
+  /*responsiv de index*/
+      
+      .bodyy{
+          display: grid;
+          
+          
+          
+          
+      }
+      .cabecera{
+          width: 129%;
+      }
+       .navbar{
+          width: 129%;
+          font-size: x-large;
+          display:inline-block;
+          padding-block-end: 10%;        
+  
+       }
+  
+       .img{
+        margin-left: 9%;
+        
+        
+  
+       }
+      .sobrekinesiologia{
+          margin-top: 60%;
+          margin-left: 24%;
+          text-align: center;
+          
+      }
+  }
+
+
+/*# sourceMappingURL=stylo.css.map */
